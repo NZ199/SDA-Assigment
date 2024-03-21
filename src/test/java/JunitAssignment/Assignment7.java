@@ -44,7 +44,8 @@ public class Assignment7
     }
 
     @After
-    public void tearDown() {
+    public void tearDown()
+    {
         driver.quit();
     }
 }
